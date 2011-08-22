@@ -3774,6 +3774,7 @@ void SpellMgr::LoadSpellCustomAttr()
         case 28271: // Polymorph (other animal)
         case 8122:  // Physic Scream
         case 5484:  // Howl of Terror
+        case 91264: // Ring of Frost
             spellInfo->AuraInterruptFlags = AURA_INTERRUPT_FLAG_TAKE_DAMAGE;
             count++;
             break;
